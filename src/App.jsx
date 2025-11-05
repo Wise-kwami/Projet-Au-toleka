@@ -3,7 +3,7 @@ import React from "react";
 const App = () => {
   return (
     <div className="flex">
-      <div className="flex border-b-2 p-6  h-1/8 w-full items-center justify-between ">
+      <div className="flex border-b-2 p-6  h-1/8 w-full items-center justify-between bg-secondary ">
         <div className="flex flex-row">
           <img src="" alt="logo du site web" />
           <h1 className="font-medium">Car Rental</h1>

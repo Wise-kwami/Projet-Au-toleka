@@ -1,21 +1,8 @@
 @import "tailwindcss";
-@layer base {
-  :root {
+
+@theme {
     --color-primary: #2563eb; /* Valeurs HSL */
     --color-secondary: #facc15;
     --color-neutral1: #f9fab;
     --color-neutral2:  #111827;
   }
-  
-}
-*
-{
- padding: 0;
-  margin: 0;
-}
-#root
-{
-  width: 100vw;
-  height: 100vh;
-  
-}
