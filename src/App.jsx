@@ -56,8 +56,8 @@ const App = () => {
         </div>
       </div>
       <div className="hero flex border-box items-center h-150 p-10 bg-primary m-5 rounded-3xl">
-        <div className="flex flex-row justify-between ">
-          <div className="left border-box flex-col gap-5 flex w-1/2">
+        <div className="flex h-full w-full flex-row justify-between">
+          <div className="left border-box flex-col gap-5 flex justify-center w-1/2">
             <h1 className="text-white font-bold text-5xl">
               Experience the road <br /> like never before
             </h1>
@@ -74,8 +74,39 @@ const App = () => {
               View all cars
             </button>
           </div>
-          <div className="right flex justify-center items-center w-1/2 border-box ">
-            <div className="flex h-15/8 w-3/4 bg-white rounded-xl border-box"></div>
+          <div className="right flex justify-center items-center w-1/2  border-box ">
+            <div
+              className="flex flex-col h-[90%] justify-center items-center
+             w-[70%] bg-white rounded-xl border-box p-10 gap-5"
+            >
+              <h1 className=" text-center text-2xl font-bold w-full ">
+                Book your car
+              </h1>
+              <div className="boxSelect flex flex-col gap-10 w-full">
+                <select className="border-2" name="typeCar" id="">
+                  <option value="car-type">Car type</option>
+                </select>
+                <select className="border-2" name="place-rental" id="">
+                  <option value="place-rental">Place of rental</option>
+                </select>
+                <select className="border-2" name="place-return" id="">
+                  <option value="place-return">Place of return</option>
+                </select>
+                <select className="border-2" name="rental-date" id="">
+                  <option value="rental-date">Rental of date</option>
+                </select>
+                <select className="border-2" name="return-date" id="">
+                  <option value="return-date">Return of date</option>
+                </select>
+              </div>
+              <button
+                className=" bg-secondary w-[90%] text-1xl p-2.5 text-white
+              hover:bg-white hover:text-secondary border-2
+               transition-all duration-100 rounded-xl font-bold "
+              >
+                Book now
+              </button>
+            </div>
           </div>
         </div>
       </div>
