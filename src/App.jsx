@@ -6,38 +6,29 @@ const App = () => {
       <div className="flex p-6 h-1/8 w-full items-center justify-between  ">
         <div className="flex justify-center items-center gap-6 flex-row">
           <img src="src\assets\images\car.svg" alt="logo du site web" />
-          <h1 className="font-bold text-2xl">Car Rental</h1>
+          <h1 className="font-bold text-4xl">Car Rental</h1>
         </div>
 
         <div className="nav">
           <ul className="flex gap-6 font-light">
-            <li
-              className="hover:font-bold hover:border-b-2
-             hover:text-primary transition-all duration-100 "
-            >
+            <li className="hover:font-bold transition-all duration-100 ">
               Home
             </li>
-            <li
-              className="hover:font-bold hover:border-b-2
-             hover:text-primary transition-all duration-100 "
-            >
+            <li className="hover:font-bold transition-all duration-100 ">
               Vehicules
             </li>
-            <li
-              className="hover:font-bold hover:border-b-2
-             hover:text-primary transition-all duration-100 "
-            >
+            <li className="hover:font-bold transition-all duration-100 ">
               Details
             </li>
             <li
-              className="hover:font-bold hover:border-b-2
-             hover:text-primary transition-all duration-100 "
+              className="hover:font-bold
+              transition-all duration-100 "
             >
               About Us
             </li>
             <li
-              className="hover:font-bold hover:border-b-2
-             hover:text-primary transition-all duration-100 "
+              className="hover:font-bold
+              transition-all duration-100 "
             >
               Contact Us
             </li>
@@ -55,7 +46,7 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className="hero flex border-box items-center h-150 p-10 bg-primary m-5 rounded-3xl">
+      <div className="hero flex border-box items-center h-150 p-10 bg-primary ml-5 mr-5 rounded-3xl">
         <div className="flex relative h-full w-full flex-row justify-between">
           <div className="left z-6 border-box flex-col gap-5 flex justify-center w-1/2">
             <h1 className="text-white font-bold text-5xl">
@@ -83,24 +74,44 @@ const App = () => {
                 Book your car
               </h1>
               <div className="boxSelect flex flex-col gap-10 w-full">
-                <select className="" name="typeCar" id="">
+                <select
+                  className="bg-gray-200 p-1.5 rounded-xl"
+                  name="typeCar"
+                  id=""
+                >
                   <option value="car-type">Car type</option>
                 </select>
-                <select className="" name="place-rental" id="">
+                <select
+                  className="bg-gray-200 p-1.5 rounded-xl"
+                  name="place-rental"
+                  id=""
+                >
                   <option value="place-rental">Place of rental</option>
                 </select>
-                <select className="" name="place-return" id="">
+                <select
+                  className="bg-gray-200 p-1.5 rounded-xl"
+                  name="place-return"
+                  id=""
+                >
                   <option value="place-return">Place of return</option>
                 </select>
-                <select className="" name="rental-date" id="">
-                  <option value="rental-date">Rental of date</option>
-                </select>
-                <select className="" name="return-date" id="">
-                  <option value="return-date">Return of date</option>
-                </select>
+                <input
+                  className="bg-gray-200 p-1.5 rounded-xl"
+                  label="rental of date"
+                  type="date"
+                  name="rental-date"
+                  id=""
+                />
+                <input
+                  className="bg-gray-200 p-1.5 rounded-xl"
+                  placeholder="Return of date"
+                  type="date"
+                  name="return-date"
+                  id=""
+                />
               </div>
               <button
-                className=" bg-secondary w-[90%] text-1xl p-2.5 text-white
+                className=" bg-secondary w-full text-1xl p-2.5 text-white
               hover:bg-white hover:text-secondary border-2
                transition-all duration-100 rounded-xl font-bold "
               >
@@ -110,7 +121,7 @@ const App = () => {
           </div>
 
           <img
-            className="absolute w-[800px] z-3 cover top-[135px] left-[100px]"
+            className="absolute w-[800px] z-3 cover top-[135px] left-[135px]"
             src="src\assets\images\car-blur.png"
             alt="voiture flouter"
           />
