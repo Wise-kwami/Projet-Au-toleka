@@ -1,4 +1,6 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import "../../styles/App.css";
 
 const Header = () => {
   return (
@@ -10,27 +12,38 @@ const Header = () => {
 
       <div className="nav">
         <ul className="flex gap-6 font-light">
-          <li className="hover:font-extrabold transition-all duration-100 ">
-            Home
-          </li>
-          <li className="hover:font-extrabold transition-all duration-100 ">
-            Vehicules
-          </li>
-          <li className="hover:font-extrabold transition-all duration-100 ">
-            Details
-          </li>
-          <li
-            className="hover:font-extrabold
+          <NavLink to="/">
+            <li className="hover:font-extrabold transition-all duration-100 ">
+              Home
+            </li>
+          </NavLink>
+          <NavLink to="/Carlist">
+            <li className="hover:font-extrabold transition-all duration-100 ">
+              Vehicules
+            </li>
+          </NavLink>
+
+          <NavLink to="/Details">
+            <li className="hover:font-extrabold transition-all duration-100 ">
+              Details
+            </li>
+          </NavLink>
+          <NavLink to="/About">
+            <li
+              className="hover:font-extrabold
                   transition-all duration-100 "
-          >
-            About Us
-          </li>
-          <li
-            className="hover:font-extrabold
+            >
+              About Us
+            </li>
+          </NavLink>
+          <NavLink to="/Contacts">
+            <li
+              className="hover:font-extrabold
                   transition-all duration-100 "
-          >
-            Contact Us
-          </li>
+            >
+              Contact Us
+            </li>
+          </NavLink>
         </ul>
       </div>
       <div className="flex justify-center gap-2">
