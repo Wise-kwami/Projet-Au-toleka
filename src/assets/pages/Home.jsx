@@ -105,6 +105,114 @@ const Home = () => {
           />
         </div>
       </div>
+      <div className="box-icone border-box flex justify-center gap-10 ml-20 mr-20 mb-15 mt-15">
+        <div className="icone flex flex-col gap-5 ">
+          <div
+            className="box-content flex
+        flex-col justify-center items-center gap-5 text-center"
+          >
+            <img
+              className="w-[64px] h-[64px]"
+              src="images/location.svg"
+              alt="icone de localisation"
+            />
+            <p className="font-bold text-center text-2xl ">Availibity</p>
+          </div>
+
+          <p className="text-center text-wrap">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div className="icone flex flex-col gap-5">
+          <div
+            className="box-content flex
+        flex-col text-center justify-center items-center gap-5"
+          >
+            <img
+              className="w-[64px] h-[64px]"
+              src="images/car-i.svg"
+              alt="icone de comfort"
+            />
+            <p className="font-bold text-center text-2xl ">Comfort</p>
+          </div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+        <div className="icone flex flex-col gap-5">
+          <div
+            className="box-content flex
+        flex-col text-center justify-center items-center gap-5"
+          >
+            <img
+              className="w-[64px] h-[64px]"
+              src="images/pocket.svg"
+              alt="icone de portefeuil"
+            />
+            <p className="font-bold text-center text-2xl">Saving</p>
+          </div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+      </div>
+      <div className="box-detail flex justify-center items-center gap-25 ml-20 mr-20 mb-15 mt-15 border-box">
+        <div className="box-picture w-1/2 flex">
+          <img src="images/img_home.png" alt="image flou de l'accueil" />
+        </div>
+        <div className="box-list w-1/2 ">
+          <ul className="flex flex-col gap-7">
+            <li>
+              <div className="flex flex-col gap-5">
+                <div className="flex items-center gap-10">
+                  <span className="text-center text-xl bg-primary p-3 rounded-full w-[50px] h-[50px] text-white">
+                    1
+                  </span>
+                  <h5 className="font-bold text-2xl">Texte en gras</h5>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </li>
+            <li>
+              <div className="flex flex-col gap-5">
+                <div className="flex items-center gap-10">
+                  <span className="text-center text-xl bg-primary p-3 rounded-full w-[50px] h-[50px] text-white">
+                    2
+                  </span>
+                  <h5 className="font-bold text-2xl">Texte en gras</h5>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </li>
+            <li>
+              <div className="flex flex-col gap-5">
+                <div className="flex items-center gap-10">
+                  <span className="text-center text-xl bg-primary p-3 rounded-full w-[50px] h-[50px] text-white">
+                    3
+                  </span>
+                  <h5 className="font-bold text-2xl">Texte en gras</h5>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </li>
+            <li>
+              <div className="flex flex-col gap-5">
+                <div className="flex items-center gap-10">
+                  <span className="text-center text-xl bg-primary p-3 rounded-full w-[50px] h-[50px] text-white">
+                    4
+                  </span>
+                  <h5 className="font-bold text-2xl">Texte en gras</h5>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="box-car flex flex-col">
+        <div className="title-btn ">
+          <h1 className="font-bold text-4xl">Choose the car that suits you</h1>
+
+          <p className="font-bold text-4xl">View all</p>
+        </div>
+        <div className="list-cars "></div>
+      </div>
     </div>
   );
 };

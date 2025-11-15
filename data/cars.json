@@ -1,0 +1,93 @@
+[
+ {
+ "id": 1,
+ "brand": "Toyota",
+ "model": "Sedan",
+ "year": 2022,
+ "pricePerDay": 35,
+ "image": "/images/cars/toyota-corolla.jpg",
+ "category": "Compacte",
+ "transmission": "Manuel",
+ "fuel": "Essence",
+ "description": "Toyota Sedan 2022 confortable et économique.",
+ "availability": true
+ },
+ {
+ "id": 2,
+ "brand": "Porsche",
+ "model": "SUV",
+ "year": 2024,
+ "pricePerDay": 50,
+ "image": "/images/cars/toyota-corolla.jpg",
+ "category": "Compacte",
+ "transmission": "Automatique",
+ "fuel": "Essence",
+ "description": "Toyota SUV 2024 confortable et économique.",
+ "availability": true
+ },
+ {
+ "id": 3,
+ "brand": "Maybach",
+ "model": "Sedan",
+ "year": 2022,
+ "pricePerDay": 45,
+ "image": "/images/cars/toyota-corolla.jpg",
+ "category": "Compacte",
+ "transmission": "Automatique",
+ "fuel": "Essence",
+ "description": "Maybach sedan 2022 confortable et économique.",
+ "availability": true
+ },
+ {
+ "id": 4,
+ "brand": "Mercedes",
+ "model": "Sedan",
+ "year": 2022,
+ "pricePerDay": 45,
+ "image": "/images/cars/toyota-corolla.jpg",
+ "category": "Compacte",
+ "transmission": "Automatique",
+ "fuel": "Essence",
+ "description": "Mercedes sedan 2022 confortable et économique.",
+ "availability": true
+ },
+ {
+ "id": 5,
+ "brand": "Mercedes",
+ "model": "Sport",
+ "year": 2022,
+ "pricePerDay": 45,
+ "image": "/images/cars/toyota-corolla.jpg",
+ "category": "Compacte",
+ "transmission": "Manuel",
+ "fuel": "Essence",
+ "description": "Mercedes sport 2022 confortable et économique.",
+ "availability": true
+ },
+ {
+ "id": 6,
+ "brand": "Mercedes",
+ "model": "Van",
+ "year": 2022,
+ "pricePerDay": 50,
+ "image": "/images/cars/toyota-corolla.jpg",
+ "category": "Compacte",
+ "transmission": "Automatique",
+ "fuel": "Essence",
+ "description": "Mercedes van 2022 confortable et économique.",
+ "availability": true
+ },
+ {
+ "id": 7,
+ "brand": "Toyota",
+ "model": "Sport",
+ "year": 2022,
+ "pricePerDay": 60,
+ "image": "/images/cars/toyota-corolla.jpg",
+ "category": "Compacte",
+ "transmission": "Manuel",
+ "fuel": "Essence",
+ "description": "Toyota sport 2022 confortable et économique.",
+ "availability": true
+ }
+]
