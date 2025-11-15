@@ -1,4 +1,12 @@
 import React from "react";
+// import { useEffect } from "react";
+
+// useEffect(() => {
+//   fetch ('data\cars.json').then(res=> res.json()).
+//   then()
+// }, []);
+
+// API AXIOS AVEC DB JSON
 
 const CarCard = () => {
   return (
