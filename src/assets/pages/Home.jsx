@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import CarCard from "../components/CarCard";
 
 const Home = () => {
   return (
@@ -135,7 +136,9 @@ const Home = () => {
             />
             <p className="font-bold text-center text-2xl ">Comfort</p>
           </div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <p className="text-center text-wrap">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
         </div>
         <div className="icone flex flex-col gap-5">
           <div
@@ -149,7 +152,9 @@ const Home = () => {
             />
             <p className="font-bold text-center text-2xl">Saving</p>
           </div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <p className="text-center text-wrap">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
         </div>
       </div>
       <div className="box-detail flex justify-center items-center gap-25 ml-20 mr-20 mb-15 mt-15 border-box">
@@ -205,13 +210,19 @@ const Home = () => {
           </ul>
         </div>
       </div>
-      <div className="box-car flex flex-col">
-        <div className="title-btn ">
+      <div className="box-car flex flex-col gap-20 ml-20 mr-20 mb-15 mt-15 border-box">
+        <div className="title-btn flex justify-between ">
           <h1 className="font-bold text-4xl">Choose the car that suits you</h1>
 
           <p className="font-bold text-4xl">View all</p>
         </div>
-        <div className="list-cars "></div>
+        <div className="list-cars ">
+          <ul className="flex gap-5 border-box">
+            {/* <CarCard></CarCard>
+            <CarCard></CarCard>
+            <CarCard></CarCard> */}
+          </ul>
+        </div>
       </div>
     </div>
   );
