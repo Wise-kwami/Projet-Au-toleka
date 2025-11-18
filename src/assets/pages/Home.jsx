@@ -113,7 +113,7 @@ const Home = () => {
         flex-col justify-center items-center gap-5 text-center"
           >
             <img
-              className="w-[64px] h-[64px]"
+              className="w-[64px]  h-[64px]"
               src="images/location.svg"
               alt="icone de localisation"
             />
@@ -217,11 +217,7 @@ const Home = () => {
           <p className="font-bold text-4xl">View all</p>
         </div>
         <div className="list-cars ">
-          <ul className="flex gap-5 border-box">
-            {/* <CarCard></CarCard>
-            <CarCard></CarCard>
-            <CarCard></CarCard> */}
-          </ul>
+          <CarCard></CarCard>
         </div>
       </div>
     </div>
