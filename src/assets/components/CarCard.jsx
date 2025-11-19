@@ -12,9 +12,9 @@ const CarCard = () => {
   }, []);
 
   return (
-    <ul className="flex gap-5 w-full border-box flex-wrap">
-      {listCar.map((car, index) => (
-        <Car key={index} />
+    <ul className="flex justify-center items-center gap-5 w-full border-box flex-wrap">
+      {listCar.map((car) => (
+        <Car key={car.id} car={car} />
       ))}
     </ul>
   );

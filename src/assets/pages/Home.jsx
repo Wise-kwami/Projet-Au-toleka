@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../components/Header";
-import CarCard from "../components/CarCard";
 
 const Home = () => {
   return (
@@ -215,9 +214,6 @@ const Home = () => {
           <h1 className="font-bold text-4xl">Choose the car that suits you</h1>
 
           <p className="font-bold text-4xl">View all</p>
-        </div>
-        <div className="list-cars ">
-          <CarCard></CarCard>
         </div>
       </div>
     </div>
